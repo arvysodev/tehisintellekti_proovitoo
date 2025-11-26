@@ -95,7 +95,7 @@ FEEDS = {
     }
 }
 
-USER_AGENT = "TehisintellektScraper/1.0 (+kontakt@example.com)"
+USER_AGENT = "TehisintellektScraper/1.0"
 DEFAULT_REQUEST_HEADERS = {
     "User-Agent": USER_AGENT,
 }
