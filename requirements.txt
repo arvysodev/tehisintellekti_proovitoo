@@ -1,0 +1,6 @@
+scrapy
+fastapi
+uvicorn[standard]
+openai
+python-dotenv
+beautifulsoup4
