@@ -36,7 +36,6 @@ INDEX_FILE = FRONTEND_DIR / "index.html"
 
 @app.get("/")
 def index():
-    # kui sa tahad Reacti serve’ida eraldi dev serverilt, võib selle lihtsalt asendada nt health checkiga
     return {"message": "Backend is running"}
 
 @app.get("/health")
