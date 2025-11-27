@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import ReactMarkdown from "react-markdown";
 
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
@@ -88,11 +87,11 @@ function App() {
       )}
 
       {answer && (
-        <div>
+        <div className="answer-block">
           <h3>Vastus:</h3>
-          <pre style={{ whiteSpace: "pre-wrap", wordBreak: "break-word"}}>
-            {answer}
-          </pre>
+          <div className="answer-box">
+            <ReactMarkdown>{answer}</ReactMarkdown>
+          </div>
         </div>
       )}
     </div>
