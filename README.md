@@ -23,10 +23,10 @@ Rakendus koosneb kolmest osast:
     `cd tehisintellekti_proovitoo`
     `.venv\Scripts\activate       (Windows)`
 
-2. Paigalda sõltuvused:
+2. Paigalda sõltuvused (esmasel käivitamisel):
     `pip install -r requirements.txt`
 
-3. Käivita scraper:
+3. Käivita scraper (esmasel käivitamisel, et koguda andmeid):
     `cd scraper`
     `scrapy crawl tehisintellekt`
     `cd ..`

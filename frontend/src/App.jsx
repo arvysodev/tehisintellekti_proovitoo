@@ -90,7 +90,9 @@ function App() {
       {answer && (
         <div>
           <h3>Vastus:</h3>
-          <pre>{answer}</pre>
+          <pre style={{ whiteSpace: "pre-wrap", wordBreak: "break-word"}}>
+            {answer}
+          </pre>
         </div>
       )}
     </div>
